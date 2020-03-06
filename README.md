@@ -33,11 +33,25 @@ Esta parte foi desenvolvida separadamente e seu codigo esta em ingles pois apren
 Seu conteudo é importante pois tem a parte de animação para apresentar as funçoes do aplicativo aos usuarios.
 
 - #### Tela de Inicio, Cadastro e Login
+
 <img src="/Organizze financas/Prints_tela/Organizze2.png" width="150"> <img src="/Organizze financas/Prints_tela/Organizze3.png" width="150"> <img src="/Organizze financas/Prints_tela/Organizze4.png" width="150">
-Por tras dessas telas 
+
+Por tras dessas telas a implementações de validação e verficação de campos, depois tudo e comparado ou enviado para um banco externo
+criptografado e em base64.
+
+- #### Menu princial
 
 <img src="/Organizze financas/Prints_tela/Organizze5.png" width="150">
 
+Nesta etapa o usurio consegue atraves de um bottão flutuante criar receitas e despesas, é possivel visualizar saldo atual e apagar notas arrastando para excluir. Tudo isso é possivel aprender nesse projeto.
+
+- #### Despesa
+
 <img src="/Organizze financas/Prints_tela/Organizze6.png" width="150">
+Despesa possui as validações de campos e a conexão com banco externo.
+
+- #### Receitas 
 
 <img src="/Organizze financas/Prints_tela/Organizze7.png" width="150">
+Receita possui as validações de campos e a conexão com banco externo.
+
