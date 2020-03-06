@@ -3,11 +3,11 @@
 
 ## Organizze Clone
 
-Este aplicativo possui funçoes especificas e serve para desenvolver metodos e contole de tela, botão flutuante arrastar para apagar dente
-outras funçoes. **Lembrando todo o codigo esta comentado para auxiliar no desenvolvimento e o arquivo Android.docx tambem possui informções
+Este aplicativo possui funções especificas e serve para desenvolver métodos e controle de tela, botão flutuante arrastar para apagar dente
+outras funções. **Lembrando todo o código está comentado para auxiliar no desenvolvimento e o arquivo Android.docx também possui informações
 de apoio no desenvolvimento do projeto.**
 
-### Sempre importe a biblioteca e as dependencias no buid do App:
+### Sempre importe a biblioteca e as dependências no build do App:
 
         dependencies {
             implementation fileTree(dir: 'libs', include: ['*.jar'])
@@ -24,26 +24,32 @@ de apoio no desenvolvimento do projeto.**
             implementation 'com.prolificinteractive:material-calendarview:1.4.3'
         }
 
+#### GitHub com informações detalhadas de Material CalenderView
+https://github.com/prolificinteractive/material-calendarview
+
+#### GitHub com informações detalhadas do FloatingActionButton
+https://github.com/Clans/FloatingActionButton
 
 
-### Algumas telas inlustra melhor a proposta do App:
+
+### Algumas telas ilustram melhor a proposta do App:
 - #### Tela de inicialização
 <img src="/Organizze financas/Prints_tela/Organizze1.png" width="150">
-Esta parte foi desenvolvida separadamente e seu codigo esta em ingles pois aprende em um tutorial na internet, esta comentado em portugues.
-Seu conteudo é importante pois tem a parte de animação para apresentar as funçoes do aplicativo aos usuarios.
+Esta parte foi desenvolvida separadamente e seu código está em inglês pois aprende em um tutorial na internet, está comentado em português.
+Seu conteúdo é importante pois tem a parte de animação para apresentar as funções do aplicativo aos usuários.
 
-- #### Tela de Inicio, Cadastro e Login
+- #### Tela de Início, Cadastro e Login
 
 <img src="/Organizze financas/Prints_tela/Organizze2.png" width="150"> <img src="/Organizze financas/Prints_tela/Organizze3.png" width="150"> <img src="/Organizze financas/Prints_tela/Organizze4.png" width="150">
 
-Por tras dessas telas a implementações de validação e verficação de campos, depois tudo e comparado ou enviado para um banco externo
+Por trás dessas telas a implementações de validação e verificação de campos, depois tudo e comparado ou enviado para um banco externo
 criptografado e em base64.
 
-- #### Menu princial
+- #### Menu principal
 
 <img src="/Organizze financas/Prints_tela/Organizze5.png" width="150">
 
-Nesta etapa o usurio consegue atraves de um bottão flutuante criar receitas e despesas, é possivel visualizar saldo atual e apagar notas arrastando para excluir. Tudo isso é possivel aprender nesse projeto.
+Nesta etapa o usuário consegue através de um botão flutuante criar receitas e despesas, é possível visualizar saldo atual e apagar notas arrastando para excluir. Tudo isso é possível aprender nesse projeto.
 
 - #### Despesa
 
@@ -54,4 +60,3 @@ Despesa possui as validações de campos e a conexão com banco externo.
 
 <img src="/Organizze financas/Prints_tela/Organizze7.png" width="150">
 Receita possui as validações de campos e a conexão com banco externo.
-
